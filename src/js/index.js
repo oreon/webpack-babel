@@ -21,6 +21,14 @@ export class MyClass{
   }
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+  const hiButton = document.getElementById('hi-button');
+  hiButton.addEventListener('click', MyClass.press);
+
+  const thereButton = document.getElementById('there-button');
+  thereButton.addEventListener('click', a);
+});
+
 export const a = () => alert("hi from glbl")
 
 console.log(new MyClass().fun())
