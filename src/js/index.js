@@ -1,5 +1,7 @@
 //import {adder} from test;
 import adder from './test';
+import '../styles/main.scss';
+
 const serNos = [6934, 23111, 23114, 1001, 211161];
 
 const strSNos = serNos.map(sn => sn+ 100);

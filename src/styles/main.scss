@@ -1,0 +1,16 @@
+@import 'theme';
+$theme-font:    verdana, sans-serif;
+
+body {
+  font: $theme-font;
+  background-color: $themeColor-Light;
+  h1, h2 {
+      color: $themeColor-Dark
+  }
+  button {
+      padding: 1rem;
+      background: $themeColor-Dark;
+      color: white;
+      font-size: 1.5rem;
+  }
+}
